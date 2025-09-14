@@ -1,273 +1,128 @@
-# Prem Kumar Gupta - Professional Portfolio
+🚀 Project Title & Tagline
+=========================
+**Emergency Deploy**: A Next.js Portfolio Template for Developers 🚀
 
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+📖 Description
+---------------
 
-> **Production-ready portfolio showcasing full-stack development capabilities and Azure cloud deployment expertise.**
+The Emergency Deploy project is a Next.js portfolio template designed for developers to quickly showcase their work, experience, and skills. This template is built using the latest technologies, including React, TypeScript, and Tailwind CSS. It provides a simple and easy-to-use interface for developers to create a professional-looking portfolio.
 
-## 🌐 Live Application
+The template includes a navigation menu, a hero section, an experience section, a projects section, a resume section, and a contact section. Each section is customizable, allowing developers to add their own content and style. The template also includes a dark mode feature, which can be enabled by adding a class to the HTML element.
 
-**Primary Domain:** [https://aryanjaiswal.me](https://aryanjaiswal.me)  
-**Alternative:** [https://www.aryanjaiswal.me](https://www.aryanjaiswal.me)
+The Emergency Deploy project is perfect for developers who want to create a portfolio quickly and easily. It is also a great starting point for those who want to learn about Next.js and TypeScript. With its simple and intuitive design, developers can focus on showcasing their work and skills, rather than spending time on building a portfolio from scratch.
 
-## 📊 Performance Metrics
+The project is built using a modular approach, with each component separated into its own file. This makes it easy to customize and extend the template. The project also includes a comprehensive set of scripts and configurations, making it easy to set up and deploy.
 
-- **Bundle Size**: 472 kB (optimized)
-- **Lighthouse Score**: 95+ (Performance, Accessibility, SEO)
-- **Load Time**: <1 second (Azure CDN)
-- **SSL Grade**: A+ (TLS 1.3)
-- **Uptime**: 99.9% (Azure SLA)
+### Key Benefits
 
-## 🏗️ Architecture Overview
+* Quickly create a professional-looking portfolio
+* Customize each section to fit your needs
+* Dark mode feature for a unique look
+* Built using the latest technologies, including React, TypeScript, and Tailwind CSS
+* Modular design for easy customization and extension
 
-### **Frontend Stack**
-- **Framework**: Next.js 14.2.10 (App Router)
-- **Language**: TypeScript 5.x
-- **Styling**: Tailwind CSS 3.x
-- **3D Graphics**: Three.js + React Three Fiber
-- **Animations**: Framer Motion
-- **UI Components**: Custom component library
+✨ Features
+----------
 
-### **Infrastructure**
-- **Cloud Provider**: Microsoft Azure
-- **Hosting**: Azure App Service (Linux)
-- **Runtime**: Node.js 20 LTS
-- **Domain**: Custom domain with SSL/TLS
-- **CDN**: Azure Front Door (optional)
-- **CI/CD**: GitHub Actions integration
+Here are some of the key features of the Emergency Deploy project:
 
-### **Security & Performance**
-- **SSL Certificate**: Azure Managed Certificate (Auto-renewal)
-- **Security Headers**: HSTS, Content Security Policy
-- **Compression**: Gzip/Brotli enabled
-- **Caching**: Static asset optimization
-- **Analytics**: Performance monitoring
+1. **Navigation Menu**: A customizable navigation menu that allows developers to add their own links and styles.
+2. **Hero Section**: A hero section that includes a background image, a heading, and a call-to-action button.
+3. **Experience Section**: A section that allows developers to showcase their experience and skills.
+4. **Projects Section**: A section that allows developers to showcase their projects and achievements.
+5. **Resume Section**: A section that allows developers to upload their resume and make it available for download.
+6. **Contact Section**: A section that includes a contact form and a map to help visitors get in touch.
+7. **Dark Mode**: A dark mode feature that can be enabled by adding a class to the HTML element.
+8. **Customizable**: Each section is customizable, allowing developers to add their own content and style.
+9. **Responsive Design**: The template is fully responsive, making it look great on all devices.
+10. **Next.js**: The template is built using Next.js, making it easy to set up and deploy.
+11. **TypeScript**: The template is built using TypeScript, making it easy to catch errors and improve code quality.
+12. **Tailwind CSS**: The template is built using Tailwind CSS, making it easy to customize the design and layout.
 
-## 🚀 Deployment Architecture
+🧰 Tech Stack Table
+-------------------
 
-```mermaid
-graph TB
-    A[GitHub Repository] --> B[Azure App Service]
-    B --> C[Custom Domain]
-    C --> D[SSL Certificate]
-    D --> E[Live Application]
-    F[DNS Management] --> C
-    G[Azure CLI] --> B
-```
+Here is a table summarizing the tech stack used in the Emergency Deploy project:
 
-### **Production Environment**
-- **Resource Group**: `rg-prem-portfolio`
-- **App Service Plan**: `asp-prem-portfolio` (Basic B1)
-- **Web App**: `prem-portfolio-app`
-- **Domain**: `premkumargupta.me`
-- **Deployment**: ZIP-based deployment with Oryx build
+| Category | Technology |
+| --- | --- |
+| Frontend | React, Next.js |
+| Backend | None |
+| Tools | TypeScript, Tailwind CSS, CSS |
+| Deployment | Vercel, Netlify |
 
+📁 Project Structure
+---------------------
 
-## 🛠️ Development
+Here is an overview of the project structure:
 
-### **Prerequisites**
-- Node.js 18+ 
-- npm/yarn/pnpm
-- Azure CLI (for deployment)
+* `components`: This folder contains all the React components used in the template.
+* `config`: This folder contains configuration files for the template, including the `links` file.
+* `pages`: This folder contains all the pages used in the template, including the index page.
+* `public`: This folder contains all the static assets used in the template, including images and fonts.
+* `styles`: This folder contains all the CSS files used in the template, including the `globals.css` file.
+* `utils`: This folder contains utility functions used in the template, including the `cn` function.
 
-### **Local Development**
-```bash
-# Clone repository
-git clone https://github.com/PremKrGuptaOp/PremKrGupta_dev.git
-cd PremKrGupta_dev
+⚙️ How to Run
+--------------
 
-# Install dependencies
-npm install
+To run the Emergency Deploy project, follow these steps:
 
-# Start development server
-npm run dev
+1. Clone the repository using Git.
+2. Install the dependencies using npm or yarn.
+3. Run the development server using `npm run dev` or `yarn dev`.
+4. Open the template in your web browser using `http://localhost:3000`.
+5. To build the template for production, use `npm run build` or `yarn build`.
+6. To deploy the template, use a service like Vercel or Netlify.
 
-# Build for production
-npm run build
+### Environment Variables
 
-# Preview production build
-npm start
-```
+The template uses the following environment variables:
 
-### **Environment Configuration**
-```bash
-# Required for production deployment
-WEBSITE_NODE_DEFAULT_VERSION=20.x
-SCM_DO_BUILD_DURING_DEPLOYMENT=true
-ENABLE_ORYX_BUILD=true
-```
+* `NODE_ENV`: The environment variable that determines whether the template is running in development or production mode.
+* `VERCEL_URL`: The environment variable that determines the URL of the Vercel deployment.
 
-## 📁 Project Structure
+### Build and Deployment
 
-```
-├── app/                    # Next.js App Router
-│   ├── globals.css         # Global styles
-│   ├── layout.tsx          # Root layout
-│   ├── page.tsx            # Home page
-│   └── provider.tsx        # Theme provider
-├── components/             # React components
-│   ├── ui/                 # Reusable UI components
-│   ├── approach.tsx        # Professional approach section
-│   ├── career-highlights.tsx # Achievement showcase
-│   ├── experience.tsx      # Work experience timeline
-│   ├── footer.tsx          # Contact section
-│   ├── grid.tsx            # About section with bento grid
-│   ├── hero.tsx            # Landing section
-│   ├── recent-projects.tsx # Project portfolio
-│   └── resume.tsx          # Comprehensive resume
-├── config/                 # Application configuration
-├── data/                   # Content management
-├── lib/                    # Utility functions
-├── public/                 # Static assets
-└── web.config             # Azure IIS configuration
-```
+The template can be built and deployed using the following scripts:
 
-## 🎯 Key Features
+* `npm run build`: Builds the template for production.
+* `npm run deploy`: Deploys the template to Vercel or Netlify.
 
-### **Interactive Components**
-- **3D Globe Animation**: Real-time interactive globe using Three.js
-- **Floating Navigation**: Context-aware navigation with glassmorphism
-- **Project Showcase**: Interactive cards with live demos and source code
-- **Dynamic Resume**: Comprehensive technical skills and experience
-- **Career Timeline**: Professional milestones and achievements
+🧪 Testing Instructions
+----------------------
 
-### **Professional Sections**
-- **Executive Summary**: Clear value proposition and technical expertise
-- **Technical Portfolio**: Featured projects with deployment links
-- **Professional Experience**: Internships and leadership roles
-- **Skills Matrix**: Comprehensive technology stack
-- **Achievement Gallery**: Certifications and recognition
+To test the Emergency Deploy project, follow these steps:
 
-### **Technical Optimizations**
-- **Static Site Generation**: Pre-rendered pages for optimal performance
-- **Image Optimization**: Next.js Image component with lazy loading
-- **Code Splitting**: Automatic bundle optimization
-- **Tree Shaking**: Unused code elimination
-- **Modern JavaScript**: ES2022+ features with TypeScript
+1. Run the development server using `npm run dev` or `yarn dev`.
+2. Open the template in your web browser using `http://localhost:3000`.
+3. Test each section of the template, including the navigation menu, hero section, experience section, projects section, resume section, and contact section.
+4. Test the dark mode feature by adding a class to the HTML element.
+5. Test the responsiveness of the template by resizing the browser window.
 
-## 🔧 Azure Deployment
+📸 Screenshots
+--------------
 
-### **Production Deployment Process**
-```bash
-# Build application
-npm run build
+Here are some screenshots of the Emergency Deploy project:
 
-# Create deployment package
-zip -r portfolio-deploy.zip . -x "*.git*" "node_modules/*" ".next/*"
+* **Desktop View**: [INSERT PLACEHOLDER IMAGE]
+* **Mobile View**: [INSERT PLACEHOLDER IMAGE]
+* **Dark Mode**: [INSERT PLACEHOLDER IMAGE]
 
-# Deploy to Azure
-az webapp deployment source config-zip \
-  --resource-group PremKrGupta_dev \
-  --name PremKrGupta_dev-app \
-  --src PremKrGupta_dev-deploy.zip
-```
+📦 API Reference
+----------------
 
-### **Infrastructure as Code**
-```bash
-# Create resource group
-az group create --name PremKrGupta_dev --location "East US"
+The Emergency Deploy project does not have a public API. However, the template uses the following APIs:
 
-# Create app service plan
-az appservice plan create \
-  --name asp-PremKrGupta_dev \
-  --resource-group PremKrGupta_dev \
-  --sku B1 --is-linux
+* **Vercel API**: The Vercel API is used to deploy the template to Vercel.
+* **Netlify API**: The Netlify API is used to deploy the template to Netlify.
 
-# Create web app
-az webapp create \
-  --name PremKrGupta_dev-app \
-  --resource-group rg-PremKrGupta_dev \
-  --plan asp-PremKrGupta_dev \
-  --runtime "NODE:20-lts"
-```
+👤 Author
+---------
 
-### **Domain & SSL Configuration**
-```bash
-# Add custom domain
-az webapp config hostname add \
-  --webapp-name PremKrGupta_dev \
-  --resource-group rg-PremKrGupta_dev \
-  --hostname PremKrGupta_dev
+The Emergency Deploy project was created by [PremKrGuptaOp](https://github.com/PremKrGuptaOp).
 
-# Create SSL certificate
-az webapp config ssl create \
-  --hostname PremKrGupta_dev \
-  --name PremKrGupta_dev-app \
-  --resource-group rg-PremKrGupta_dev
-```
+📝 License
+---------
 
-## 📈 Technical Achievements
-
-- **Performance**: Achieved 95+ Lighthouse scores across all categories
-- **Accessibility**: WCAG 2.1 AA compliance
-- **SEO**: Structured data and meta optimization
-- **Security**: A+ SSL Labs rating
-- **Scalability**: Cloud-native architecture with auto-scaling
-
-## 🔄 CI/CD Pipeline
-
-```yaml
-# GitHub Actions workflow
-name: Deploy to Azure
-on:
-  push:
-    branches: [ main ]
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-      - name: Install dependencies
-        run: npm ci
-      - name: Build application
-        run: npm run build
-      - name: Deploy to Azure
-        uses: azure/webapps-deploy@v2
-```
-
-## 📊 Analytics & Monitoring
-
-- **Performance Monitoring**: Real-time metrics via Azure Application Insights
-- **Error Tracking**: Automated error reporting and alerting
-- **User Analytics**: Privacy-compliant visitor tracking
-- **Uptime Monitoring**: 24/7 availability monitoring
-
-## 🛡️ Security Features
-
-- **HTTPS Enforcement**: Automatic HTTP to HTTPS redirects
-- **Security Headers**: CSP, HSTS, X-Frame-Options
-- **Input Validation**: Comprehensive form validation
-- **Dependency Scanning**: Automated vulnerability detection
-
-## 📞 Professional Contact
-
-**Prem Kumar Gupta**  
-*Computer Science Engineering Student | Full-Stack Developer*
-
-- **Portfolio**: [premkumargupta.me](https://premkumargupta.me)
-- **Email**: [pg8231842@gmail.com](mailto:pg8231842@gmail.com)
-- **LinkedIn**: [linkedin.com/in/premkrgupta](https://www.linkedin.com/in/prem-kumar-gupta-a7101726b/)
-- **GitHub**: [github.com/PremKrGuptaOp](https://github.com/PremKrGuptaOp)
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/enhancement`)
-3. Commit changes (`git commit -am 'Add enhancement'`)
-4. Push to branch (`git push origin feature/enhancement`)
-5. Create Pull Request
-
----
-
-**© 2025 Prem Kumar Gupta. All rights reserved.**
-
-*Built with Next.js, deployed on Azure, optimized for performance.*
-
-
+The Emergency Deploy project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
