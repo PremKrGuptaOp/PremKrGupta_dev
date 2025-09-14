@@ -14,9 +14,9 @@
 		"lint": "next lint"
 	},
 	"author": {
-		"name": "Aryan Jaiswal",
-		"email": "aryanjstar3@gmail.com",
-		"url": "https://github.com/Aryanjstar/Aryan_Jaiswal_Portfolio"
+		"name": "Prem Kumar Gupta",
+		"email": "pg8231842@gmail.com",
+		"url": "https://github.com/PremKrGuptaOp/PremKrGupta_dev"
 	},
 	"description": "Modern & Minimalist Next.js Portfolio.",
 	"keywords": [
@@ -62,16 +62,16 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Aryanjstar/Aryan_Jaiswal_Portfolio"
+		"url": "https://github.com/PremKrGuptaOp/PremKrGupta_dev"
 	},
-	"homepage": "https://github.com/Aryanjstar/Aryan_Jaiswal_Portfolio#readme",
+	"homepage": "https://github.com/PremKrGuptaOp/PremKrGupta_dev#readme",
 	"bugs": {
-		"url": "https://github.com/Aryanjstar/Aryan_Jaiswal_Portfolio/issues",
-		"email": "aryanjstar3@gmail.com"
+		"url": "https://github.com/PremKrGuptaOp/PremKrGupta_dev/issues",
+		"email": "pg8231842@gmail.com"
 	},
 	"dependencies": {
-		"@react-three/drei": "^9.105.6",
-		"@react-three/fiber": "^8.16.6",
+		"@react-three/drei": "^9.56.26",
+		"@react-three/fiber": "^8.15.12",
 		"clsx": "^2.1.1",
 		"framer-motion": "^11.2.6",
 		"lottie-react": "^2.4.1",
@@ -83,8 +83,9 @@
 		"react-icons": "^5.2.1",
 		"tailwind-merge": "^2.3.0",
 		"tailwindcss-animate": "^1.0.7",
-		"three": "^0.178.0",
-		"three-globe": "^2.31.0"
+		"three": "^0.154.0",
+		"three-globe": "^2.31.0",
+		"three-stdlib": "^2.21.11"
 	},
 	"devDependencies": {
 		"@types/node": "^20",

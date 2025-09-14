@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy Node.js app to Azure Web App - aryan-jaiswal-portfolio
+name: Build and deploy Node.js app to Azure Web App - PremKrGupta_dev-portfolio
 
 on:
   push:
@@ -74,7 +74,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
-          app-name: "aryan-jaiswal-portfolio"
+          app-name: "PremKrGupta_dev"
           slot-name: "Production"
           package: "."
           startup-command: "bash startup.sh"

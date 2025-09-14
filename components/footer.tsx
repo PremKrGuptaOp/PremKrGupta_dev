@@ -49,12 +49,12 @@ export const Footer = () => {
 				<p className="text-center text-sm font-light md:text-left md:text-base md:font-normal">
 					Copyright &copy; {new Date().getFullYear()}{" "}
 					<Link
-						href="https://aryan.me"
+						href="https://Prem.me"
 						target="_blank"
 						rel="noreferrer noopener"
 						className="text-purple"
 					>
-						Aryan
+						Prem Kumar Gupta
 					</Link>{" "}
 					|{" "}
 					<Link href={links.sourceCode} className="underline">

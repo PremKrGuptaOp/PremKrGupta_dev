@@ -41,60 +41,85 @@ import { FaCog, FaLaptopCode, FaBrain, FaProjectDiagram } from "react-icons/fa";
 import { socialMedia } from "@/data";
 import { MagicButton } from "@/components/ui/magic-button";
 
+
 export const Resume = () => {
 	const education = [
 		{
-			institution: "Indian Institute of Information Technology, Dharwad",
+			institution: "National Institute of Technology, Meghalaya",
 			degree: "Bachelor of Technology in Computer Science and Engineering",
 			duration: "2022 - 2026",
-			location: "Dharwad, Karnataka",
+			location: "Cherrapunji, Meghalaya",
 		},
 	];
 
 	const experience = [
-		{
-			company: "InfoKalash",
-			position: "UI/UX Developer Intern",
-			duration: "Jan 2025 – Feb 2025",
-			location: "Remote",
-			responsibilities: [
-				"Redesigned core user workflows in Figma for 3 client portals, resulting in 40% reduction in user-reported navigation confusion during usability testing sessions.",
-				"Led user research sessions with 15+ target users, synthesizing feedback to pivot initial design approach, contributing to 30% projected increase in user engagement metrics.",
-				"Applied responsive design principles across 10+ device breakpoints, ensuring seamless cross-platform accessibility and modern design standards.",
-			],
-		},
-		{
-			company: "Infosys Springboard",
-			position: "Plant Disease Classification Project Intern",
-			duration: "Mar 2024 – July 2024",
-			location: "Remote",
-			responsibilities: [
-				"Crafted a website using HTML, CSS, and Flask, integrating a CNN Sequential model for plant disease classification with 90%+ accuracy across training and validation sets.",
-				"Developed and optimized a CNN model on 60,000+ plant images, using advanced data augmentation techniques to achieve a 92% precision rate, ensuring reliable disease classification.",
-				"Enhanced backend performance by refactoring user authentication and image upload functionalities, resulting in a 50% reduction in response time and a 30% improvement in page load speed, ensuring a scalable and efficient user experience.",
-			],
-		},
-	];
+{
+    company: "Meghalaya Police – COPS-TAC",
+    position: "Cybersecurity Intern",
+    duration: "June 2025 – July 2025",
+    location: "Shillong, India",
+    responsibilities: [
+    "Performed vulnerability assessments and hardened Linux servers to improve system resilience.",
+    "Developed security solutions, including a browser extension for access control and endpoint monitoring.",
+    "Monitored live network traffic and detected potential threats using Wireshark and IDS tools.",
+    "Assisted in drafting security policies and best practices for internal system usage.",
+    "Collaborated with senior security officers to analyze incident reports and propose mitigations.",
+    ],
+},
+{
+    company: "Bluestock Fintech",
+    position: "Software Development Engineer Intern",
+    duration: "May 2025 – June 2025",
+    location: "Remote",
+    responsibilities: [
+    "Contributed to back-end systems, API integration, and cloud-native fintech solutions.",
+    "Assisted in designing RESTful APIs for transaction processing and user management.",
+    "Worked on improving database queries, reducing response latency by optimizing SQL joins.",
+    "Implemented secure authentication flows using JWT and OAuth 2.0 standards.",
+    "Collaborated with front-end engineers to ensure seamless data exchange between services.",
+    ],
+},
+{
+    company: "C-DAC, Noida",
+    position: "Ethical Hacking & Penetration Testing Intern",
+    duration: "June 2024 – July 2024",
+    location: "Noida, India",
+    responsibilities: [
+    "Completed training and virtual internship on Ethical Hacking and Penetration Testing under the Cyber Gyan Project.",
+    "Worked with penetration testing tools including Metasploit, Wireshark, Nmap, and Kali Linux.",
+    "Performed reconnaissance and vulnerability scanning on simulated enterprise networks.",
+    "Exploited vulnerabilities in controlled environments to demonstrate real-world attack scenarios.",
+    "Prepared detailed reports with remediation strategies to mitigate discovered risks.",
+    ],
+},
+];
+
 
 	const projects = [
 		{
-			title: "AI Career Navigator",
+			title: "Health_Tracker",
 			technologies: [
-				{ name: "Azure OpenAI", icon: <SiOpenai className="w-4 h-4" /> },
-				{ name: "React.js", icon: <SiReact className="w-4 h-4" /> },
-				{ name: "TypeScript", icon: <SiTypescript className="w-4 h-4" /> },
-				{ name: "Flask", icon: <SiFlask className="w-4 h-4" /> },
-				{ name: "Three.js", icon: <SiThreedotjs className="w-4 h-4" /> },
-			],
+    { name: "React.js", icon: <SiReact className="w-4 h-4" /> },
+    { name: "TypeScript", icon: <SiTypescript className="w-4 h-4" /> },
+    { name: "Redux Toolkit", icon: <SiJavascript className="w-4 h-4" /> }, // Using JS icon as a placeholder
+    { name: "TailwindCSS", icon: <SiTailwindcss className="w-4 h-4" /> },
+    { name: "Vite", icon: <SiJavascript className="w-4 h-4" /> }, // Using JS icon as a placeholder
+    { name: "Flask", icon: <SiFlask className="w-4 h-4" /> },
+    { name: "Azure OpenAI", icon: <SiOpenai className="w-4 h-4" /> },
+    { name: "Three.js", icon: <SiThreedotjs className="w-4 h-4" /> },
+],
 			links: {
-				github: "https://github.com/Aryanjstar/AI-Career-Navigator",
-				demo: "https://www.youtube.com/watch?v=t_e-CtLxn_Q",
+				github: "https://github.com/PremKrGuptaOp/health_tracker",
+				demo: "https://health-tracker-iota-nine.vercel.app/",
 			},
 			description: [
-				"Designed and implemented core algorithms for a production-ready AI career platform using Azure OpenAI GPT-4.1, tested locally by 100+ users, providing personalized resume insights and tailored career guidance.",
-				"Architected a scalable microservices infrastructure (React/TypeScript, Flask) on Azure App Service and AI Search, handling 500+ document processing operations with 99% uptime in testing.",
-				"Built advanced ML features including career chat, resume analysis, skill gap detection and dynamic interview generation; received positive peer feedback and demonstrated a 60% reduction in career preparation time.",
-			],
+    "Developed a Health Tracker web application to provide personalized health insights and wellness recommendations to users.",
+    "Built a responsive and dynamic frontend using React 18 with state management via Redux Toolkit.",
+    "Styled the UI using TailwindCSS for a clean, modern, and customizable design.",
+    "Optimized development and build process using Vite for fast performance and efficient bundling.",
+    "Implemented features for tracking activities, sleep, calories, and health anomalies to help users monitor their wellness effectively.",
+],
+
 		},
 		{
 			title: "Personal Portfolio Website",
@@ -106,7 +131,7 @@ export const Resume = () => {
 			],
 			links: {
 				live: "https://aryanjaiswal.me",
-				github: "https://github.com/Aryanjstar/Aryan_Jaiswal_Portfolio",
+				github: "https://github.com/PremKrGuptaOp/PremKrGupta_dev",
 			},
 			description: [
 				"Constructed a full-stack interactive portfolio using Next.js and Three.js, achieving 95+ scores on Google Lighthouse for performance and accessibility; deployed via GitHub-integrated CI/CD pipeline on Netlify.",
@@ -170,15 +195,16 @@ export const Resume = () => {
 		],
 	};
 
-	const achievements = [
-		"Finalist – Level Supermind Hackathon, Mumbai: Top 2% (500/25,000+ participants)",
-		"Competitive Programming: GFG college rank 14, 1-year streak on LeetCode and GFG",
-		"Microsoft AI Odyssey: Completed Levels 1 & 2; ranked in top 5% globally",
-		"Featured Developer: Spotlighted on Azure Developer Community's YouTube channel for AI innovation",
-		"Google Cloud Study Jams: Mentored 30+ participants; completed Cloud and GenAI tracks",
-		"Founder & President – MLSA Chapter, IIIT Dharwad: Built and led the official Microsoft student community on campus",
-		"Certifications: Deep Learning Specialization (Andrew Ng), Stanford Innovation & Entrepreneurship",
+		const achievements = [
+		"NIT Meghalaya Hackathon 2023 — designed a healthcare data management system.",
+		"Flipkart Grid 6.0 (2024) — solved real-world algorithmic and system design problems.",
+		"Solved 300+ problems on LeetCode; specialized in arrays, recursion, and dynamic programming.",
+		"Active Head of coding clubs and peer programming groups at NIT Meghalaya.",
+		"Technical Fest Achievements: 1st in RoboRumble & Goal Against Time; 2nd in RoboDiction & Drone Racing.",
+		"SAC Committee Award — recognition for outstanding contribution as Publicity Coordinator.",
 	];
+
+
 
 	return (
 		<section id="resume" className="py-20">
@@ -188,7 +214,7 @@ export const Resume = () => {
 						My <span className="text-purple">Resume</span>
 					</h1>
 
-					<Link href="/Aryan_CV.pdf" target="_blank" rel="noreferrer noopener">
+					<Link href="PremCV_latest.pdf" target="_blank" rel="noreferrer noopener">
 						<MagicButton
 							title="Resume"
 							icon={<FaDownload />}
@@ -202,18 +228,18 @@ export const Resume = () => {
 					{/* Personal Info */}
 					<div className="text-center border-b border-white/[0.1] pb-8">
 						<h2 className="text-4xl font-bold text-white mb-2">
-							Aryan Jaiswal
+							Prem Kumar Gupta
 						</h2>
 						<p className="text-lg text-white-200 mb-4">
 							Computer Science Student & Full Stack Developer
 						</p>
 						<div className="flex justify-center space-x-6 text-white-200 flex-wrap">
-							<span>📧 aryanjstar3@gmail.com</span>
-							<span>📍 Brijmanganj, Uttar Pradesh</span>
+							<span>📧 pg8231842@gmail.com</span>
+							<span>📍 Tura, Meghalaya</span>
 						</div>
 						<div className="flex justify-center space-x-4 mt-4 flex-wrap">
 							<Link
-								href="https://linkedin.com/in/aryanjstar"
+								href="https://www.linkedin.com/in/prem-kumar-gupta-a7101726b"
 								target="_blank"
 								rel="noreferrer noopener"
 								className="text-purple hover:text-white-100 transition-colors"
@@ -221,15 +247,15 @@ export const Resume = () => {
 								LinkedIn
 							</Link>
 							<Link
-								href="https://github.com/aryanjstar"
+								href="https://github.com/PremKrGuptaOp"
 								target="_blank"
 								rel="noreferrer noopener"
 								className="text-purple hover:text-white-100 transition-colors"
 							>
 								GitHub
 							</Link>
-							<Link
-								href="https://leetcode.com/aryanjstar"
+							{/* <Link
+								href="https://leetcode.com/UserName"
 								target="_blank"
 								rel="noreferrer noopener"
 								className="text-purple hover:text-white-100 transition-colors"
@@ -237,13 +263,13 @@ export const Resume = () => {
 								LeetCode
 							</Link>
 							<Link
-								href="https://www.geeksforgeeks.org/user/aryanjstar/"
+								href="https://www.geeksforgeeks.org/user/"
 								target="_blank"
 								rel="noreferrer noopener"
 								className="text-purple hover:text-white-100 transition-colors"
 							>
 								GeeksforGeeks
-							</Link>
+							</Link> */}
 						</div>
 					</div>
 
