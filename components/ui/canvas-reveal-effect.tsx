@@ -6,6 +6,7 @@ import * as THREE from "three";
 
 import { cn } from "@/lib/utils";
 
+
 export const CanvasRevealEffect = ({
   animationSpeed = 0.4,
   opacities = [0.3, 0.3, 0.3, 0.5, 0.5, 0.5, 0.8, 0.8, 0.8, 1],
