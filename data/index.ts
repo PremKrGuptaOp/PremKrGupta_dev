@@ -90,7 +90,7 @@ export const projects = [
 		img: "/project5.svg",
 		iconLists: ["/re.svg", "/next.svg", "/ts.svg", "/three.svg", "/tail.svg"],
 		sourceCode: "https://github.com/PremKrGuptaOp/PremKrGupta_dev",
-		liveLink: "https://aryanjaiswal.me",
+		liveLink: "https://prem-kr-gupta-dev.vercel.app/",
 	},
 	// {
 	// 	id: 3,
@@ -98,7 +98,7 @@ export const projects = [
 	// 	des: "An AI-powered social media analytics platform designed to help content creators, marketers, and brands optimize their content strategy through actionable insights and real-time data using machine learning and NLP.",
 	// 	img: "/project3.svg",
 	// 	iconLists: ["/ts.svg", "/py.png", "/re.svg", "/tail.svg", "/vs.png"],
-	// 	sourceCode: "https://github.com/Aryanjstar/BuzzHive",
+	// 	sourceCode: "https://github.com//BuzzHive",
 	// },
 	// {
 	// 	id: 4,
@@ -106,8 +106,8 @@ export const projects = [
 	// 	des: "Official web platform for the MLSA Chapter at IIIT Dharwad, providing students with access to curated learning resources, community updates, event announcements, and guidance related to the Microsoft Learn Student Ambassador program.",
 	// 	img: "/project4.svg",
 	// 	iconLists: ["/re.svg", "/tail.svg", "/next.svg", "/ts.svg", "/vs.png"],
-	// 	sourceCode: "https://github.com/Aryanjstar/MLSA_IIITDWD",
-	// 	liveLink: "https://aryanjstar.github.io/MLSA_IIITDWD",
+	// 	sourceCode: "https://github.com//MLSA_IIITDWD",
+	// 	liveLink: "https://.github.io/MLSA_IIITDWD",
 	// },
 	// {
 	// 	id: 5,
@@ -115,7 +115,7 @@ export const projects = [
 	// 	des: "An intelligent resume analysis platform that leverages advanced NLP algorithms and industry-driven heuristics to evaluate resumes beyond basic formatting, providing detailed insights into job-role compatibility and technical keyword density.",
 	// 	img: "/project2.svg",
 	// 	iconLists: ["/py.png", "/next.svg", "/re.svg", "/tail.svg", "/vs.png"],
-	// 	sourceCode: "https://github.com/Aryanjstar/PowerUpResume",
+	// 	sourceCode: "https://github.com//PowerUpResume",
 	// },
 ] as const;
 
@@ -205,12 +205,12 @@ export const socialMedia = [
 	// {
 	// 	name: "LeetCode",
 	// 	img: "/lc.png",
-	// 	link: "https://leetcode.com/aryanjstar",
+	// 	link: "https://leetcode.com/",
 	// },
 	// {
 	// 	name: "GeeksforGeeks",
 	// 	img: "/gfg.png",
-	// 	link: "https://www.geeksforgeeks.org/user/aryanjstar/",
+	// 	link: "https://www.geeksforgeeks.org/user//",
 	// },
 ] as const;
 

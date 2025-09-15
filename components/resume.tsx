@@ -130,7 +130,7 @@ export const Resume = () => {
 				{ name: "Three.js", icon: <SiThreedotjs className="w-4 h-4" /> },
 			],
 			links: {
-				live: "https://aryanjaiswal.me",
+				live: "https://prem-kr-gupta-dev.vercel.app/",
 				github: "https://github.com/PremKrGuptaOp/PremKrGupta_dev",
 			},
 			description: [
