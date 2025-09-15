@@ -206,6 +206,7 @@ export const socialMedia = [
 	// 	name: "LeetCode",
 	// 	img: "/lc.png",
 	// 	link: "https://leetcode.com/",
+	
 	// },
 	// {
 	// 	name: "GeeksforGeeks",
