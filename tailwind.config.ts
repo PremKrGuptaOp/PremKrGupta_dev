@@ -1,7 +1,8 @@
-import svgToDataUri from "mini-svg-data-uri";
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const svgToDataUri = require("mini-svg-data-uri");
+
 import type { Config } from "tailwindcss";
 import { default as flattenColorPalette } from "tailwindcss/lib/util/flattenColorPalette";
-
 import "tailwindcss/colors";
 
 const config = {
